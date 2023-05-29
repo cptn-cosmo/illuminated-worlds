@@ -1,0 +1,59 @@
+{
+    "id": "illuminatedworlds",
+    "title": "Illuminated Worlds",
+    "description": "The Illuminated Worlds system, based on the Candela Obscura Quickstart Guide by Darrington Press.",
+    "version": "0.0.1",
+    "compatibility": {
+      "minimum": "10",
+      "verified": "10",
+      "maximum": "10"
+    },
+    "authors": [
+      {
+        "name": "CPTN_Cosmo",
+        "url": "https://github.com/cptn-cosmo/illuminated-worlds",
+        "email": "illuminatedworlds@dawnson.is",
+        "discord": ""
+      }
+    ],
+    "scripts": [
+      "scripts/system-script-1.js",
+      "scripts/system-script-2.js"
+    ],
+    "esmodules": [
+      "scripts/system-module-1.mjs"
+    ],
+    "styles": [
+      "styles/system-styles-1.css",
+      "styles/system-styles-2.css"
+    ],
+    "packs": [
+      {
+        "name": "monsters",
+        "label": "My Monsters",
+        "path": "packs/monsters.db",
+        "type": "Actor"
+      },
+      {
+        "name": "items",
+        "label": "My Items",
+        "path": "packs/items.db",
+        "type": "Item"
+      }
+    ],
+  "languages": [
+      {
+        "lang": "en",
+        "name": "English",
+        "path": "lang/en.json"
+      }
+    ],
+    "socket": false,
+    "gridDistance": 10,
+    "gridUnits": "ft",
+    "primaryTokenAttribute": "resources.health",
+    "secondaryTokenAttribute": "resources.power",
+    "url": "https://github.com/cptn-cosmo/illuminated-worlds/",
+    "manifest": "https://github.com/cptn-cosmo/illuminated-worlds/system.json",
+    "download": "https://github.com/cptn-cosmo/illuminated-worlds/archive.zip"
+  }

@@ -3,22 +3,17 @@
     "title": "Illuminated Worlds",
     "description": "The Illuminated Worlds system, based on the Candela Obscura Quickstart Guide by Darrington Press.",
     "version": "0.0.1",
-    "compatibility": {
-      "minimum": "10",
-      "verified": "10",
-      "maximum": "10"
-    },
+    "license": "LICENSE.txt",
     "authors": [
       {
         "name": "CPTN_Cosmo",
         "url": "https://github.com/cptn-cosmo/illuminated-worlds",
-        "email": "illuminatedworlds@dawnson.is",
-        "discord": ""
+        "email": "illuminatedworlds@dawnson.is"
       }
     ],
     "scripts": [
-      "scripts/system-script-1.js",
-      "scripts/system-script-2.js"
+        "scripts/system-script-1.js",
+        "scripts/system-script-2.js"
     ],
     "esmodules": [
       "scripts/system-module-1.mjs"
@@ -41,19 +36,17 @@
         "type": "Item"
       }
     ],
-  "languages": [
-      {
-        "lang": "en",
-        "name": "English",
-        "path": "lang/en.json"
-      }
+    "languages": [
+        {
+          "lang": "en",
+          "name": "English",
+          "path": "lang/en.json"
+        }
     ],
-    "socket": false,
-    "gridDistance": 10,
+    "gridDistance": 5,
     "gridUnits": "ft",
-    "primaryTokenAttribute": "resources.health",
-    "secondaryTokenAttribute": "resources.power",
-    "url": "https://github.com/cptn-cosmo/illuminated-worlds/",
-    "manifest": "https://github.com/cptn-cosmo/illuminated-worlds/system.json",
-    "download": "https://github.com/cptn-cosmo/illuminated-worlds/archive.zip"
-  }
+    "primaryTokenAttribute": "health",
+    "secondaryTokenAttribute": "power",
+    "manifest": "https://raw.githubusercontent.com/foundryvtt/worldbuilding/master/system.json",
+    "download": "https://github.com/foundryvtt/worldbuilding/archive/refs/tags/release-080.zip"
+}

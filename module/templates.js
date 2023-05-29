@@ -8,8 +8,8 @@ export const preloadHandlebarsTemplates = async function() {
   // Define template paths to load
   const templatePaths = [
     // Attribute list partial.
-    "systems/illuminatedworlds/templates/parts/sheet-attributes.html",
-    "systems/illuminatedworlds/templates/parts/sheet-groups.html"
+    "systems/illuminated-worlds/templates/parts/sheet-attributes.html",
+    "systems/illuminated-worlds/templates/parts/sheet-groups.html"
   ];
 
   // Load the template parts

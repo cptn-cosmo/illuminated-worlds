@@ -1,5 +1,5 @@
 {
-    "id": "illuminatedworlds",
+    "id": "illuminated-worlds",
     "title": "Illuminated Worlds",
     "description": "The Illuminated Worlds system, based on the Candela Obscura Quickstart Guide by Darrington Press.",
     "version": "0.0.1",
@@ -8,7 +8,7 @@
       {
         "name": "CPTN_Cosmo",
         "url": "https://github.com/cptn-cosmo/illuminated-worlds",
-        "email": "illuminatedworlds@dawnson.is"
+        "email": "illuminated-worlds@dawnson.is"
       }
     ],
     "scripts": [
@@ -47,6 +47,6 @@
     "gridUnits": "ft",
     "primaryTokenAttribute": "health",
     "secondaryTokenAttribute": "power",
-    "manifest": "https://raw.githubusercontent.com/foundryvtt/illuminatedworlds/master/system.json",
-    "download": "https://github.com/foundryvtt/illuminatedworlds/archive/refs/tags/release-080.zip"
+    "manifest": "https://raw.githubusercontent.com/foundryvtt/illuminated-worlds/master/system.json",
+    "download": "https://github.com/foundryvtt/illuminated-worlds/archive/refs/tags/release-080.zip"
 }

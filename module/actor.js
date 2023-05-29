@@ -28,7 +28,7 @@ export class SimpleActor extends Actor {
    * @type {boolean}
    */
   get isTemplate() {
-    return !!this.getFlag("illuminatedworlds", "isTemplate");
+    return !!this.getFlag("illuminated-worlds", "isTemplate");
   }
 
   /* -------------------------------------------- */
@@ -40,7 +40,7 @@ export class SimpleActor extends Actor {
 
     // Copy the actor's system data
     const data = this.toObject(false).system;
-    const shorthand = game.settings.get("illuminatedworlds", "macroShorthand");
+    const shorthand = game.settings.get("illuminated-worlds", "macroShorthand");
     const formulaAttributes = [];
     const itemAttributes = [];
 

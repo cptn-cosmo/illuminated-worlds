@@ -1,17 +1,17 @@
-.illuminatedworlds {
+.illuminated-worlds {
   /* Sheet Tabs */
   /* Items List */
   /* Attributes */
 }
-.illuminatedworlds .window-content {
+.illuminated-worlds .window-content {
   height: 100%;
   padding: 5px;
   overflow-y: hidden;
 }
-.illuminatedworlds form {
+.illuminated-worlds form {
   height: 100%;
 }
-.illuminatedworlds .sheet-header {
+.illuminated-worlds .sheet-header {
   flex: 0 0 100px;
   overflow: hidden;
   display: flex;
@@ -20,85 +20,85 @@
   justify-content: flex-start;
   margin-bottom: 10px;
 }
-.illuminatedworlds .sheet-header .profile-img {
+.illuminated-worlds .sheet-header .profile-img {
   flex: 0 0 100px;
   height: 100px;
   margin-right: 10px;
 }
-.illuminatedworlds .sheet-header .header-fields {
+.illuminated-worlds .sheet-header .header-fields {
   flex: 1;
   height: 100px;
 }
-.illuminatedworlds .sheet-header h1.charname {
+.illuminated-worlds .sheet-header h1.charname {
   height: 50px;
   padding: 0px;
   margin: 5px 0;
   border-bottom: 0;
 }
-.illuminatedworlds .sheet-header h1.charname input {
+.illuminated-worlds .sheet-header h1.charname input {
   width: 100%;
   height: 100%;
   margin: 0;
 }
-.illuminatedworlds .resource {
+.illuminated-worlds .resource {
   width: 50%;
   height: 40px;
   margin-top: 10px;
   float: left;
   text-align: center;
 }
-.illuminatedworlds .resource input {
+.illuminated-worlds .resource input {
   width: 100px;
   height: 28px;
 }
-.illuminatedworlds .tabs {
+.illuminated-worlds .tabs {
   flex: 0 0 40px;
   border-top: 1px solid #AAA;
   border-bottom: 1px solid #AAA;
 }
-.illuminatedworlds .tabs .item {
+.illuminated-worlds .tabs .item {
   line-height: 40px;
   font-weight: bold;
 }
-.illuminatedworlds .tabs .item.active {
+.illuminated-worlds .tabs .item.active {
   text-decoration: underline;
   text-shadow: none;
 }
-.illuminatedworlds .sheet-body {
+.illuminated-worlds .sheet-body {
   overflow: hidden;
 }
-.illuminatedworlds .sheet-body .tab {
+.illuminated-worlds .sheet-body .tab {
   height: 100%;
   overflow-y: auto;
 }
-.illuminatedworlds .editor,
-.illuminatedworlds .editor-content {
+.illuminated-worlds .editor,
+.illuminated-worlds .editor-content {
   height: 100%;
 }
-.illuminatedworlds .item-list {
+.illuminated-worlds .item-list {
   list-style: none;
   margin: 7px 0;
   padding: 0;
   overflow-y: auto;
 }
-.illuminatedworlds .item-list .item {
+.illuminated-worlds .item-list .item {
   min-height: 30px;
   line-height: 24px;
   padding: 3px 0;
   border-bottom: 1px solid #BBB;
   align-items: stretch;
 }
-.illuminatedworlds .item-list .item img {
+.illuminated-worlds .item-list .item img {
   flex: 0 0 24px;
   margin-right: 5px;
 }
-.illuminatedworlds .item-list .item-name {
+.illuminated-worlds .item-list .item-name {
   margin: 0;
 }
-.illuminatedworlds .item-list .item-controls {
+.illuminated-worlds .item-list .item-controls {
   flex: 0 0 36px;
 }
-.illuminatedworlds .item-list .item-buttons {
+.illuminated-worlds .item-list .item-buttons {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
@@ -106,23 +106,23 @@
   flex: 2;
   justify-content: flex-start;
 }
-.illuminatedworlds .item-list .item-button {
+.illuminated-worlds .item-list .item-button {
   line-height: 1;
   font-size: 11px;
   flex: none;
   width: auto;
 }
-.illuminatedworlds .attributes {
+.illuminated-worlds .attributes {
   position: relative;
 }
-.illuminatedworlds .attributes .attribute-control,
-.illuminatedworlds .attributes .group-control {
+.illuminated-worlds .attributes .attribute-control,
+.illuminated-worlds .attributes .group-control {
   flex: 0 0 20px;
   text-align: center;
   line-height: 28px;
   border: none;
 }
-.illuminatedworlds .attributes .attribute-roll {
+.illuminated-worlds .attributes .attribute-roll {
   flex: 0 0 20px;
   text-align: center;
   border-bottom: none;
@@ -130,11 +130,11 @@
   align-items: center;
   justify-content: center;
 }
-.illuminatedworlds .attributes .group-prefix {
+.illuminated-worlds .attributes .group-prefix {
   height: 31px;
   margin-right: 10px;
 }
-.illuminatedworlds .attributes .button {
+.illuminated-worlds .attributes .button {
   width: 100%;
   flex: 1;
   margin: 0;
@@ -145,11 +145,11 @@
   line-height: 28px;
   display: block;
 }
-.illuminatedworlds .attributes .attribute-key {
+.illuminated-worlds .attributes .attribute-key {
   background: transparent;
   border: none;
 }
-.illuminatedworlds .attributes-header {
+.illuminated-worlds .attributes-header {
   position: sticky;
   top: 0;
   left: 0;
@@ -162,12 +162,12 @@
   text-align: left;
   font-weight: bold;
 }
-.illuminatedworlds .attributes-list {
+.illuminated-worlds .attributes-list {
   list-style: none;
   margin: 0;
   padding: 0;
 }
-.illuminatedworlds .attributes-list li > * {
+.illuminated-worlds .attributes-list li > * {
   margin: 0 3px;
   height: 28px;
   line-height: 24px;
@@ -176,47 +176,47 @@
   border-radius: 0;
   border-bottom: 1px solid #AAA;
 }
-.illuminatedworlds .attributes-list .attribute-col label {
+.illuminated-worlds .attributes-list .attribute-col label {
   font-size: 10px;
   text-align: center;
   line-height: 1;
 }
-.illuminatedworlds .attributes-list .attribute-col input {
+.illuminated-worlds .attributes-list .attribute-col input {
   font-size: 11px;
   text-align: center;
   line-height: 1;
   height: 50%;
 }
-.illuminatedworlds .attribute input[type="text"]::placeholder,
-.illuminatedworlds .group-header input[type="text"]::placeholder {
+.illuminated-worlds .attribute input[type="text"]::placeholder,
+.illuminated-worlds .group-header input[type="text"]::placeholder {
   opacity: 0;
   transition: opacity 0.25s ease-in-out;
 }
-.illuminatedworlds .attribute input[type="text"]:focus::placeholder,
-.illuminatedworlds .group-header input[type="text"]:focus::placeholder {
+.illuminated-worlds .attribute input[type="text"]:focus::placeholder,
+.illuminated-worlds .group-header input[type="text"]:focus::placeholder {
   opacity: 1;
 }
-.illuminatedworlds .group-controls {
+.illuminated-worlds .group-controls {
   margin: 5px;
 }
-.illuminatedworlds .groups-list {
+.illuminated-worlds .groups-list {
   list-style: none;
   margin: 0;
   padding: 0;
 }
-.illuminatedworlds .group {
+.illuminated-worlds .group {
   margin: 5px 0 0;
   padding: 0;
 }
-.illuminatedworlds .group-header {
+.illuminated-worlds .group-header {
   align-items: center;
   background: rgba(0, 0, 0, 0.05);
   border: 1px solid #AAA;
   border-radius: 2px;
   padding: 2px 5px;
 }
-.illuminatedworlds .group-key,
-.illuminatedworlds .group-label {
+.illuminated-worlds .group-key,
+.illuminated-worlds .group-label {
   font-weight: bold;
   border: none;
   border-bottom: 1px solid #AAA;
@@ -224,22 +224,22 @@
   border-radius: 0;
   margin-right: 6px;
 }
-.illuminatedworlds .group-key {
+.illuminated-worlds .group-key {
   opacity: 0.75;
 }
-.illuminatedworlds .group-label {
+.illuminated-worlds .group-label {
   flex: 2;
 }
-.illuminatedworlds .group-dtype {
+.illuminated-worlds .group-dtype {
   height: 24px;
   flex: 0 0 116px;
   margin: 0 5px;
 }
-.illuminatedworlds.sheet.actor {
+.illuminated-worlds.sheet.actor {
   min-width: 560px;
   min-height: 420px;
 }
-.illuminatedworlds.sheet.item {
+.illuminated-worlds.sheet.item {
   min-width: 460px;
   min-height: 400px;
 }

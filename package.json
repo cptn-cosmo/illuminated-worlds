@@ -1,7 +1,7 @@
 {
-  "name": "worldbuilding",
-  "version": "1.0.0",
-  "description": "CSS compiler for the Worldbuilding system",
+  "name": "illuminatedworlds",
+  "version": "0.0.1",
+  "description": "CSS compiler for the Illuminated Worlds system",
   "scripts": {
     "css": "gulp css",
     "watch": "gulp",

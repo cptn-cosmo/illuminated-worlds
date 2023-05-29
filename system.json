@@ -47,6 +47,6 @@
     "gridUnits": "ft",
     "primaryTokenAttribute": "health",
     "secondaryTokenAttribute": "power",
-    "manifest": "https://raw.githubusercontent.com/foundryvtt/worldbuilding/master/system.json",
-    "download": "https://github.com/foundryvtt/worldbuilding/archive/refs/tags/release-080.zip"
+    "manifest": "https://raw.githubusercontent.com/foundryvtt/illuminatedworlds/master/system.json",
+    "download": "https://github.com/foundryvtt/illuminatedworlds/archive/refs/tags/release-080.zip"
 }

@@ -172,7 +172,7 @@ export class EntitySheetHelper {
     const button = event.currentTarget;
     const label = button.closest(".attribute").querySelector(".attribute-label")?.value;
     const chatLabel = label ?? button.parentElement.querySelector(".attribute-key").value;
-    const shorthand = game.settings.get("illuminated-worlds", "macroShorthand");
+    const shorthand = game.settings.get("worldbuilding", "macroShorthand");
 
     // Use the actor for rollData so that formulas are always in reference to the parent actor.
     const rollData = this.actor.getRollData();
@@ -520,7 +520,7 @@ export class EntitySheetHelper {
 
     // Identify the template Actor types
     const collection = game.collections.get(this.documentName);
-    const templates = collection.filter(a => a.getFlag("illuminated-worlds", "isTemplate"));
+    const templates = collection.filter(a => a.getFlag("worldbuilding", "isTemplate"));
     const defaultType = this.TYPES[0];
     const types = {
       [defaultType]: game.i18n.localize("SIMPLE.NoTemplate")
@@ -558,7 +558,7 @@ export class EntitySheetHelper {
         if ( template ) {
           createData = foundry.utils.mergeObject(template.toObject(), createData);
           createData.type = template.type;
-          delete createData.flags.illuminated-worlds.isTemplate;
+          delete createData.flags.worldbuilding.isTemplate;
         }
 
         // Merge provided override data

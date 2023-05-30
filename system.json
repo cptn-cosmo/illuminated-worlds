@@ -1,52 +1,34 @@
 {
-    "id": "illuminated-worlds",
-    "title": "Illuminated Worlds",
-    "description": "The Illuminated Worlds system, based on the Candela Obscura Quickstart Guide by Darrington Press.",
-    "version": "0.0.1",
-    "license": "LICENSE.txt",
-    "authors": [
-      {
-        "name": "CPTN_Cosmo",
-        "url": "https://github.com/cptn-cosmo/illuminated-worlds",
-        "email": "illuminated-worlds@dawnson.is"
-      }
-    ],
-    "scripts": [
-        "scripts/system-script-1.js",
-        "scripts/system-script-2.js"
-    ],
-    "esmodules": [
-      "scripts/system-module-1.mjs"
-    ],
-    "styles": [
-      "styles/system-styles-1.css",
-      "styles/system-styles-2.css"
-    ],
-    "packs": [
-      {
-        "name": "monsters",
-        "label": "My Monsters",
-        "path": "packs/monsters.db",
-        "type": "Actor"
-      },
-      {
-        "name": "items",
-        "label": "My Items",
-        "path": "packs/items.db",
-        "type": "Item"
-      }
-    ],
-    "languages": [
-        {
-          "lang": "en",
-          "name": "English",
-          "path": "lang/en.json"
-        }
-    ],
-    "gridDistance": 5,
-    "gridUnits": "ft",
-    "primaryTokenAttribute": "health",
-    "secondaryTokenAttribute": "power",
-    "manifest": "https://raw.githubusercontent.com/foundryvtt/illuminated-worlds/master/system.json",
-    "download": "https://github.com/foundryvtt/illuminated-worlds/archive/refs/tags/release-080.zip"
+  "id": "illuminated-worlds",
+  "version": "0.0.1",
+  "title": "Illuminated Worlds",
+  "url": "https://github.com/cptn-cosmo/illuminated-worlds",
+  "description": "The Illuminated Worlds system, based on the Candela Obscura Quickstart Guide by Darrington Press.",
+  "license": "LICENSE.txt",
+  "authors": [
+    {
+      "name": "CPTN_Cosmo",
+      "url": "https://github.com/cptn-cosmo"
+    }
+  ],
+  "esmodules": ["module/simple.js"],
+  "styles": ["styles/simple.css"],
+  "packs": [],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ],
+  "compatibility": {
+    "minimum": "10",
+    "verified": "11"
+  },
+  "gridDistance": 5,
+  "gridUnits": "ft",
+  "primaryTokenAttribute": "health",
+  "secondaryTokenAttribute": "power",
+  "manifest": "https://raw.githubusercontent.com/cptn-cosmo/illuminated-worlds/master/system.json",
+  "download": "https://github.com/cptn-cosmo/illuminated-worlds/archive/refs/tags/release-001.zip"
 }

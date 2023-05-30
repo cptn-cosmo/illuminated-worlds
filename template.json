@@ -1,38 +1,38 @@
 {
-    "Actor": {
-      "types": ["character"],
-      "htmlFields": ["biography"],
-      "character": {
-        "biography": "",
-        "pronouns": "",
-        "role": "",
-        "style": "",
-        "catalyst": "",
-        "question": "",
-        "circle": "",
-        "health": {
-          "value": 10,
-          "min": 0,
-          "max": 10
-        },
-        "power": {
-          "value": 5,
-          "min": 0,
-          "max": 5
-        },
-        "attributes": {},
-        "groups": {}
-      }
-    },
-    "Item": {
-      "types": ["item"],
-      "htmlFields": ["description"],
-      "item": {
-        "description": "",
-        "quantity": 1,
-        "weight": 0,
-        "attributes": {},
-        "groups": {}
-      }
+  "Actor": {
+    "types": ["character"],
+    "htmlFields": ["biography"],
+    "character": {
+      "biography": "",
+      "pronouns": "",
+      "role": "",
+      "style": "",
+      "catalyst": "",
+      "question": "",
+      "circle": "",
+      "health": {
+        "value": 10,
+        "min": 0,
+        "max": 10
+      },
+      "power": {
+        "value": 5,
+        "min": 0,
+        "max": 5
+      },
+      "attributes": {},
+      "groups": {}
     }
+  },
+  "Item": {
+    "types": ["item"],
+    "htmlFields": ["description"],
+    "item": {
+      "description": "",
+      "quantity": 1,
+      "weight": 0,
+      "attributes": {},
+      "groups": {}
+    }
+  }
 }

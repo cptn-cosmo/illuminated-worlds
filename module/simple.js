@@ -31,7 +31,7 @@ Hooks.once("init", async function() {
     decimals: 2
   };
 
-  game.illuminatedworlds = {
+  game.worldbuilding = {
     SimpleActor,
     createWorldbuildingMacro
   };
@@ -44,12 +44,12 @@ Hooks.once("init", async function() {
 
   // Register sheet application classes
   Actors.unregisterSheet("core", ActorSheet);
-  Actors.registerSheet("illuminatedworlds", SimpleActorSheet, { makeDefault: true });
+  Actors.registerSheet("worldbuilding", SimpleActorSheet, { makeDefault: true });
   Items.unregisterSheet("core", ItemSheet);
-  Items.registerSheet("illuminatedworlds", SimpleItemSheet, { makeDefault: true });
+  Items.registerSheet("worldbuilding", SimpleItemSheet, { makeDefault: true });
 
   // Register system settings
-  game.settings.register("illuminatedworlds", "macroShorthand", {
+  game.settings.register("worldbuilding", "macroShorthand", {
     name: "SETTINGS.SimpleMacroShorthandN",
     hint: "SETTINGS.SimpleMacroShorthandL",
     scope: "world",
@@ -59,7 +59,7 @@ Hooks.once("init", async function() {
   });
 
   // Register initiative setting.
-  game.settings.register("illuminatedworlds", "initFormula", {
+  game.settings.register("worldbuilding", "initFormula", {
     name: "SETTINGS.SimpleInitFormulaN",
     hint: "SETTINGS.SimpleInitFormulaL",
     scope: "world",
@@ -70,7 +70,7 @@ Hooks.once("init", async function() {
   });
 
   // Retrieve and assign the initiative formula setting.
-  const initFormula = game.settings.get("illuminatedworlds", "initFormula");
+  const initFormula = game.settings.get("worldbuilding", "initFormula");
   _simpleUpdateInit(initFormula);
 
   /**
@@ -118,7 +118,7 @@ Hooks.on("getActorDirectoryEntryContext", (html, options) => {
     },
     callback: li => {
       const actor = game.actors.get(li.data("documentId"));
-      actor.setFlag("illuminatedworlds", "isTemplate", true);
+      actor.setFlag("worldbuilding", "isTemplate", true);
     }
   });
 
@@ -132,7 +132,7 @@ Hooks.on("getActorDirectoryEntryContext", (html, options) => {
     },
     callback: li => {
       const actor = game.actors.get(li.data("documentId"));
-      actor.setFlag("illuminatedworlds", "isTemplate", false);
+      actor.setFlag("worldbuilding", "isTemplate", false);
     }
   });
 });
@@ -152,7 +152,7 @@ Hooks.on("getItemDirectoryEntryContext", (html, options) => {
     },
     callback: li => {
       const item = game.items.get(li.data("documentId"));
-      item.setFlag("illuminatedworlds", "isTemplate", true);
+      item.setFlag("worldbuilding", "isTemplate", true);
     }
   });
 
@@ -166,7 +166,7 @@ Hooks.on("getItemDirectoryEntryContext", (html, options) => {
     },
     callback: li => {
       const item = game.items.get(li.data("documentId"));
-      item.setFlag("illuminatedworlds", "isTemplate", false);
+      item.setFlag("worldbuilding", "isTemplate", false);
     }
   });
 });
